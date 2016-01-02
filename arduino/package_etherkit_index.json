@@ -22,7 +22,7 @@
           "checksum": "SHA-256:26d4ea7dc98335edb950dee461abccc0ced7c0e3673a3ccf8ef44eff75e1aa2c",
           "size": "238848",
           "boards": [
-            {"name": "OpenBeacon 2"},
+            {"name": "OpenBeacon 2"}
           ],
           "toolsDependencies": [
           ]
