@@ -17,10 +17,10 @@
           "help": {
             "online": "https://www.etherkit.com/docs"
           },
-          "url": "https://etherkit.github.io/arduino/etherkit-samd-1.0.0.tar.gz",
-          "archiveFileName": "etherkit-samd-1.0.0.tar.gz",
-          "checksum": "SHA-256:bf3a984bce67fb915d4a17809ce2eb6f1569918ae3822cc95d177f542b1fdefa",
-          "size": "238978",
+          "url": "https://etherkit.github.io/arduino/etherkit-samd-1.0.0.zip",
+          "archiveFileName": "etherkit-samd-1.0.0.zip",
+          "checksum": "SHA-256:1e25dfba1554820ea642c7feb36b9256baf08448e277a2cdf8f9fa064e21f641",
+          "size": "344214",
           "boards": [
             {"name": "OpenBeacon 2"}
           ],
