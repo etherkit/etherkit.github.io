@@ -17,10 +17,10 @@
           "help": {
             "online": "https://www.etherkit.com/docs"
           },
-          "url": "http://downloads.arduino.cc/cores/avr-1.6.6.tar.bz2",
-          "archiveFileName": "avr-1.6.6.tar.bz2",
-          "checksum": "SHA-256:08ad5db4978ebea22344edc5d77dce0923d8a644da7a14dc8072e883c76058d8",
-          "size": "4876916",
+          "url": "https://etherkit.github.io/arduino/etherkit-samd-1.0.0.tar.gz",
+          "archiveFileName": "etherkit-samd-1.0.0.tar.gz",
+          "checksum": "SHA-256:26d4ea7dc98335edb950dee461abccc0ced7c0e3673a3ccf8ef44eff75e1aa2c",
+          "size": "238848",
           "boards": [
             {"name": "OpenBeacon 2"},
           ],
