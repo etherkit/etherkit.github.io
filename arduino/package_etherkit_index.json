@@ -19,8 +19,8 @@
           },
           "url": "https://etherkit.github.io/arduino/etherkit-samd-1.0.0.tar.gz",
           "archiveFileName": "etherkit-samd-1.0.0.tar.gz",
-          "checksum": "SHA-256:26d4ea7dc98335edb950dee461abccc0ced7c0e3673a3ccf8ef44eff75e1aa2c",
-          "size": "238848",
+          "checksum": "SHA-256:bf3a984bce67fb915d4a17809ce2eb6f1569918ae3822cc95d177f542b1fdefa",
+          "size": "238978",
           "boards": [
             {"name": "OpenBeacon 2"}
           ],
