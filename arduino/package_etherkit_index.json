@@ -1,0 +1,55 @@
+{
+  "packages": [
+    {
+      "name": "etherkit",
+      "maintainer": "Etherkit",
+      "websiteURL": "https://www.etherkit.com",
+      "email": "support@etherkit.com",
+      "help": {
+        "online": "https://www.etherkit.com/docs"
+      },
+      "platforms": [
+        {
+          "name": "Etherkit SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Etherkit",
+          "help": {
+            "online": "https://www.etherkit.com/docs"
+          },
+          "url": "https://etherkit.github.io/arduino/etherkit-samd-1.0.0.zip",
+          "archiveFileName": "etherkit-samd-1.0.0.zip",
+          "checksum": "SHA-256:76e674305d4eb476f5b5219a63630c1b909e51cb84097cd66ac3ddb05f5f460d",
+          "size": "344220",
+          "boards": [
+            {"name": "OpenBeacon 2"}
+          ],
+          "toolsDependencies": [
+            {
+      				"packager": "arduino",
+      				"name": "arm-none-eabi-gcc",
+      				"version": "4.8.3-2014q1"
+      			},
+      			{
+      				"packager": "arduino",
+      				"name": "bossac",
+      				"version": "1.6.1-arduino"
+      			},
+      			{
+      				"packager": "arduino",
+      				"name": "openocd",
+      				"version": "0.9.0-arduino"
+      			},
+      			{
+      				"packager": "arduino",
+      				"name": "CMSIS",
+      				"version": "4.0.0-atmel"
+      			}
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
