@@ -1,0 +1,66 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: OpenBeacon
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+    - title: OpenBeacon Home
+      url: /openbeacon_landing_page
+      output: web
+
+    - title: OpenBeacon Description and Specifications
+      url: /openbeacon_specs
+      output: web, pdf
+
+  - title: Assembly and Troubleshooting
+    output: web, pdf
+    folderitems:
+    - title: Before You Start OpenBeacon
+      url: /openbeacon_start
+      output: web, pdf
+
+    - title: OpenBeacon Assembly
+      url: /openbeacon_assembly
+      output: web, pdf
+
+    - title: OpenBeacon Theory of Operation
+      url: /openbeacon_theory
+      output: web, pdf
+
+    - title: OpenBeacon Troubleshooting
+      url: /openbeacon_troubleshooting
+      output: web, pdf
+
+  - title: Using and Extending OpenBeacon
+    output: web, pdf
+    folderitems:
+    - title: OpenBeacon Hardware Usage Guide
+      url: /openbeacon_hw_usage
+      output: web, pdf
+
+    - title: OpenBeacon Client Software Usage Guide
+      url: /openbeacon_sw_usage
+      output: web, pdf
+
+    - title: OpenBeacon Signal Bestiary
+      url: /openbeacon_bestiary
+      output: web, pdf

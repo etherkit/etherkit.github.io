@@ -98,3 +98,7 @@ sidebars:
 
 description: "Etherkit Online Product Documentation"
 # the description is used in the feed.xml file
+
+url: etherkit.github.io
+
+baseurl: /etherkit.github.io
