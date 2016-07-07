@@ -102,7 +102,7 @@ description: "Etherkit Online Product Documentation"
 
 url: etherkit.github.io
 
-baseurl: /etherkit.github.io
+baseurl: /
 
 gems:
   - jekyll-redirect-from
