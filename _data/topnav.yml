@@ -14,3 +14,5 @@ topnav_dropdowns:
       folderitems:
         - title: OpenBeacon
           url: /openbeacon_landing_page
+        - title: Si5351A Breakout Board
+          url: /si5351abb_landing_page
