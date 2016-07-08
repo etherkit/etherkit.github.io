@@ -11,3 +11,6 @@ entries:
     - title: OpenBeacon
       url: /openbeacon_landing_page
       output: web
+    - title: Si5351A Breakout Board
+      url: /si5351abb_landing_page
+      output: web

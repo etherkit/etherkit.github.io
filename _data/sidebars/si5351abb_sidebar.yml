@@ -1,0 +1,50 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Si5351A Breakout Board
+  version: Rev C
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+    - title: Si5351A Breakout Board Home
+      url: /si5351abb_landing_page
+      output: web
+
+    - title: Si5351A Breakout Board Description and Specifications
+      url: /si5351abb_specs
+      output: web, pdf
+
+  - title: Assembly and Troubleshooting
+    output: web, pdf
+    folderitems:
+    - title: Surface Mount Tutorial for Beginners
+      url: /si5351abb_smt
+      output: web, pdf
+
+    - title: Si5351A Breakout Board Assembly
+      url: /si5351abb_assembly
+      output: web, pdf
+
+  - title: Using and Extending OpenBeacon
+    output: web, pdf
+    folderitems:
+    - title: Si5351A Breakout Board Alignment and Usage
+      url: /si5351abb_usage
+      output: web, pdf
