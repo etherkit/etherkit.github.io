@@ -1,0 +1,50 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: EtherProg
+  version: Rev A
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+    - title: EtherProg Home
+      url: /etherprog_landing_page
+      output: web
+
+    - title: EtherProg Description and Specifications
+      url: /etherprog_specs
+      output: web, pdf
+
+  - title: Assembly and Troubleshooting
+    output: web, pdf
+    folderitems:
+    - title: Before You Start EtherProg
+      url: /etherprog_start
+      output: web, pdf
+
+    - title: EtherProg Assembly
+      url: /etherprog_assembly
+      output: web, pdf
+
+  - title: Using EtherProg
+    output: web, pdf
+    folderitems:
+    - title: EtherProg Usage Guide
+      url: /etherprog_usage
+      output: web, pdf
