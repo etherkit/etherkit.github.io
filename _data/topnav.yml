@@ -16,3 +16,5 @@ topnav_dropdowns:
           url: /openbeacon_landing_page
         - title: Si5351A Breakout Board
           url: /si5351abb_landing_page
+        - title: CRX1
+          url: /crx1_landing_page

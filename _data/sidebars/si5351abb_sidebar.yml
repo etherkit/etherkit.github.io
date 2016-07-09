@@ -42,7 +42,7 @@ entries:
       url: /si5351abb_assembly
       output: web, pdf
 
-  - title: Using and Extending OpenBeacon
+  - title: Using the Si5351A Breakout Board
     output: web, pdf
     folderitems:
     - title: Si5351A Breakout Board Alignment and Usage

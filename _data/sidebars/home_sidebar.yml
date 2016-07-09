@@ -14,3 +14,6 @@ entries:
     - title: Si5351A Breakout Board
       url: /si5351abb_landing_page
       output: web
+    - title: CRX1
+      url: /crx1_landing_page
+      output: web

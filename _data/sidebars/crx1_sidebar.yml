@@ -1,0 +1,70 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: CRX1
+  version: Rev A
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+    - title: CRX1 Home
+      url: /crx1_landing_page
+      output: web
+
+    - title: CRX1 Description and Specifications
+      url: /crx1_specs
+      output: web, pdf
+
+  - title: Assembly and Troubleshooting
+    output: web, pdf
+    folderitems:
+    - title: Before You Start CRX1
+      url: /crx1_start
+      output: web, pdf
+
+    - title: Surface Mount Tutorial for Beginners
+      url: /crx1_smt
+      output: web, pdf
+
+    - title: Toroidal Inductor Winding Instructions
+      url: /crx1_toroid
+      output: web, pdf
+
+    - title: CRX1 Assembly
+      url: /crx1_assembly
+      output: web, pdf
+
+  - title: Using and Extending CRX1
+    output: web, pdf
+    folderitems:
+    - title: CRX1 Theory of Operation
+      url: /crx1_theory
+      output: web, pdf
+
+    - title: CRX1 Transmitter Integration
+      url: /crx1_tx
+      output: web, pdf
+
+    - title: CRX1 Modifications
+      url: /crx1_mods
+      output: web, pdf
+
+    - title: CRX1 Troubleshooting
+      url: /crx1_troubleshooting
+      output: web, pdf

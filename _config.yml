@@ -96,6 +96,7 @@ sidebars:
 - mydoc_sidebar
 - openbeacon_sidebar
 - si5351abb_sidebar
+- crx1_sidebar
 
 description: "Etherkit Online Product Documentation"
 # the description is used in the feed.xml file
