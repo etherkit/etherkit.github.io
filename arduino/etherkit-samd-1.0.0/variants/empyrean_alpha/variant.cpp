@@ -187,7 +187,9 @@ void SERCOM0_Handler()
   Serial1.IrqHandler();
 }
 
+/*
 void SERCOM5_Handler()
 {
   Serial.IrqHandler();
 }
+*/
