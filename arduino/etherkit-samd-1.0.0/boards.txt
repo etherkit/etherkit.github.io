@@ -1,4 +1,4 @@
-# Copyright (c) 2016 Etherkit.  All right reserved.
+# Copyright (c) 2016 Etherkit.  All rights reserved.
 #
 # This library is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
@@ -14,32 +14,48 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-# OpenBeacon 2
-# ------------
-openbeacon2.name=OpenBeacon 2
-openbeacon2.vid.0=0x2341
-openbeacon2.pid.0=0x804d
-openbeacon2.vid.1=0x2341
-openbeacon2.pid.1=0x004d
+# Empyrean Alpha
+# --------------
+empyrean_alpha.name=Empyrean Alpha
+empyrean_alpha.vid.0=0x2341
+empyrean_alpha.pid.0=0x804d
+empyrean_alpha.vid.1=0x2341
+empyrean_alpha.pid.1=0x004d
 
-openbeacon2.upload.tool=bossac
-openbeacon2.upload.protocol=sam-ba
-openbeacon2.upload.maximum_size=262144
-openbeacon2.upload.use_1200bps_touch=true
-openbeacon2.upload.wait_for_upload_port=true
-openbeacon2.upload.native_usb=true
-openbeacon2.build.mcu=cortex-m0plus
-openbeacon2.build.f_cpu=48000000L
-openbeacon2.build.usb_product="OpenBeacon 2"
-openbeacon2.build.usb_manufacturer="Etherkit"
-openbeacon2.build.board=SAMD_ZERO
-openbeacon2.build.core=arduino
-openbeacon2.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
-openbeacon2.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
-openbeacon2.build.openocdscript=openocd_scripts/arduino_zero.cfg
-openbeacon2.build.variant=arduino_zero
-openbeacon2.build.variant_system_lib=
-openbeacon2.build.vid=0x2341
-openbeacon2.build.pid=0x804d
-openbeacon2.bootloader.tool=openocd
-openbeacon2.bootloader.file=zero/samd21_sam_ba.bin
+empyrean_alpha.vid.2=0x2341
+empyrean_alpha.pid.2=0x824d
+# If the board is a 2341:824d use 2341:824d for build and set other parameters as well
+empyrean_alpha.vid.2.build.vid=0x2341
+empyrean_alpha.vid.2.build.pid=0x824d
+empyrean_alpha.vid.2.build.usb_product="Empyrean Alpha"
+empyrean_alpha.vid.2.bootloader.file=zero/samd21_sam_ba_genuino.bin
+
+empyrean_alpha.vid.3=0x2341
+empyrean_alpha.pid.3=0x024d
+# If the board is a 2341:024d use 2341:824d for build and set other parameters as well
+empyrean_alpha.vid.3.build.vid=0x2341
+empyrean_alpha.vid.3.build.pid=0x824d
+empyrean_alpha.vid.3.build.usb_product="Empyrean Alpha"
+empyrean_alpha.vid.3.bootloader.file=zero/samd21_sam_ba_genuino.bin
+
+empyrean_alpha.upload.tool=bossac
+empyrean_alpha.upload.protocol=sam-ba
+empyrean_alpha.upload.maximum_size=262144
+empyrean_alpha.upload.use_1200bps_touch=true
+empyrean_alpha.upload.wait_for_upload_port=true
+empyrean_alpha.upload.native_usb=true
+empyrean_alpha.build.mcu=cortex-m0plus
+empyrean_alpha.build.f_cpu=48000000L
+empyrean_alpha.build.usb_product="Empyrean Alpha"
+empyrean_alpha.build.usb_manufacturer="Etherkit"
+empyrean_alpha.build.board=SAMD_ZERO
+empyrean_alpha.build.core=arduino
+empyrean_alpha.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+empyrean_alpha.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+empyrean_alpha.build.openocdscript=openocd_scripts/arduino_zero.cfg
+empyrean_alpha.build.variant=empyrean_alpha
+empyrean_alpha.build.variant_system_lib=
+empyrean_alpha.build.vid=0x2341
+empyrean_alpha.build.pid=0x804d
+empyrean_alpha.bootloader.tool=openocd
+empyrean_alpha.bootloader.file=zero/samd21_sam_ba.bin
