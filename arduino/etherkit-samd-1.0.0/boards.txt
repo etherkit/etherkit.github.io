@@ -19,8 +19,8 @@
 empyrean_alpha.name=Empyrean Alpha
 empyrean_alpha.vid.0=0x1209
 empyrean_alpha.pid.0=0x73ea
-#empyrean_alpha.vid.1=0x2341
-#empyrean_alpha.pid.1=0x804d
+empyrean_alpha.vid.1=0x1209
+empyrean_alpha.pid.1=0x73ea
 
 #empyrean_alpha.vid.2=0x1209
 #empyrean_alpha.pid.2=0x73ea
