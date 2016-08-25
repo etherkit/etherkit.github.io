@@ -17,26 +17,26 @@
 # Empyrean Alpha
 # --------------
 empyrean_alpha.name=Empyrean Alpha
-empyrean_alpha.vid.0=0x2341
-empyrean_alpha.pid.0=0x804d
-empyrean_alpha.vid.1=0x2341
-empyrean_alpha.pid.1=0x004d
+empyrean_alpha.vid.0=0x1209
+empyrean_alpha.pid.0=0x80ea
+#empyrean_alpha.vid.1=0x1209
+#empyrean_alpha.pid.1=0x004d
 
-empyrean_alpha.vid.2=0x2341
-empyrean_alpha.pid.2=0x824d
+empyrean_alpha.vid.2=0x1209
+empyrean_alpha.pid.2=0x73ea
 # If the board is a 2341:824d use 2341:824d for build and set other parameters as well
-empyrean_alpha.vid.2.build.vid=0x2341
-empyrean_alpha.vid.2.build.pid=0x824d
+empyrean_alpha.vid.2.build.vid=0x1209
+empyrean_alpha.vid.2.build.pid=0x73ea
 empyrean_alpha.vid.2.build.usb_product="Empyrean Alpha"
-empyrean_alpha.vid.2.bootloader.file=zero/samd21_sam_ba_genuino.bin
+empyrean_alpha.vid.2.bootloader.file=zero/empyrean_alpha_sam_ba.bin
 
-empyrean_alpha.vid.3=0x2341
-empyrean_alpha.pid.3=0x024d
+#empyrean_alpha.vid.3=0x1209
+#empyrean_alpha.pid.3=0x024d
 # If the board is a 2341:024d use 2341:824d for build and set other parameters as well
-empyrean_alpha.vid.3.build.vid=0x2341
-empyrean_alpha.vid.3.build.pid=0x824d
-empyrean_alpha.vid.3.build.usb_product="Empyrean Alpha"
-empyrean_alpha.vid.3.bootloader.file=zero/samd21_sam_ba_genuino.bin
+#empyrean_alpha.vid.3.build.vid=0x1209
+#empyrean_alpha.vid.3.build.pid=0x824d
+#empyrean_alpha.vid.3.build.usb_product="Empyrean Alpha"
+#empyrean_alpha.vid.3.bootloader.file=zero/samd21_sam_ba_genuino.bin
 
 empyrean_alpha.upload.tool=bossac
 empyrean_alpha.upload.protocol=sam-ba
