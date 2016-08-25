@@ -22,14 +22,6 @@ empyrean_alpha.pid.0=0x73ea
 empyrean_alpha.vid.1=0x1209
 empyrean_alpha.pid.1=0x88ea
 
-#empyrean_alpha.vid.2=0x1209
-#empyrean_alpha.pid.2=0x73ea
-# If the board is a 2341:824d use 2341:824d for build and set other parameters as well
-#empyrean_alpha.vid.2.build.vid=0x1209
-#empyrean_alpha.vid.2.build.pid=0x73ea
-#empyrean_alpha.vid.2.build.usb_product="Empyrean Alpha"
-#empyrean_alpha.vid.2.bootloader.file=empyrean_alpha/empyrean_alpha_sam_ba.bin
-
 empyrean_alpha.upload.tool=bossac
 empyrean_alpha.upload.protocol=sam-ba
 empyrean_alpha.upload.maximum_size=262144
