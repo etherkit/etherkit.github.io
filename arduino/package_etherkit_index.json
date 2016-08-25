@@ -19,8 +19,8 @@
           },
           "url": "https://etherkit.github.io/arduino/etherkit-samd-1.0.0.zip",
           "archiveFileName": "etherkit-samd-1.0.0.zip",
-          "checksum": "SHA-256:76671f9cbeb891e008e097766c2447f785151dffd8b13eebb6dff378d98de16a",
-          "size": "1242968",
+          "checksum": "SHA-256:05e925f18bdf3767eb56f79632bd343d372aa46a669bdf98f62657f238d4863d",
+          "size": "1242972",
           "boards": [
             {"name": "Empyrean Alpha"},
             {"name": "Empyrean Beta"}
