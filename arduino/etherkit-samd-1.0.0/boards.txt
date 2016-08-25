@@ -56,6 +56,6 @@ empyrean_alpha.build.openocdscript=openocd_scripts/arduino_zero.cfg
 empyrean_alpha.build.variant=empyrean_alpha
 empyrean_alpha.build.variant_system_lib=
 empyrean_alpha.build.vid=0x1209
-empyrean_alpha.build.pid=0x73ea
+empyrean_alpha.build.pid=0x80ea
 empyrean_alpha.bootloader.tool=openocd
 empyrean_alpha.bootloader.file=empyrean_alpha/empyrean_alpha_sam_ba.bin
