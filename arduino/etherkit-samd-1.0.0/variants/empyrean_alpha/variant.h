@@ -1,5 +1,5 @@
 /*
-  Copyright (c) 2016 Etherkit.  All rights reserved.
+  Copyright (c) 2014-2015 Arduino LLC.  All right reserved.
 
   This library is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
@@ -16,8 +16,8 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#ifndef _VARIANT_EMPYREAN_ALPHA_
-#define _VARIANT_EMPYREAN_ALPHA_
+#ifndef _VARIANT_ARDUINO_ZERO_
+#define _VARIANT_ARDUINO_ZERO_
 
 // The definitions here needs a SAMD core >=1.6.6
 #define ARDUINO_SAMD_VARIANT_COMPLIANCE 10606
@@ -113,10 +113,10 @@ static const uint8_t ATN = PIN_ATN;
  * Serial interfaces
  */
 // Serial (EDBG)
-//#define PIN_SERIAL_RX       (31ul)
-//#define PIN_SERIAL_TX       (30ul)
-//#define PAD_SERIAL_TX       (UART_TX_PAD_2)
-//#define PAD_SERIAL_RX       (SERCOM_RX_PAD_3)
+#define PIN_SERIAL_RX       (31ul)
+#define PIN_SERIAL_TX       (30ul)
+#define PAD_SERIAL_TX       (UART_TX_PAD_2)
+#define PAD_SERIAL_RX       (SERCOM_RX_PAD_3)
 
 // Serial1
 #define PIN_SERIAL1_RX       (0ul)
@@ -208,4 +208,5 @@ extern Uart Serial1;
 #define SERIAL_PORT_HARDWARE        Serial1
 #define SERIAL_PORT_HARDWARE_OPEN   Serial1
 
-#endif /* _VARIANT_EMPYREAN_ALPHA_ */
+#endif /* _VARIANT_ARDUINO_ZERO_ */
+
