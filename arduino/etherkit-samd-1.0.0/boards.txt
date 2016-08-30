@@ -17,53 +17,10 @@
 # Empyrean Alpha
 # --------------
 empyrean_alpha.name=Empyrean Alpha
-#empyrean_alpha.vid.0=0x2341
-#empyrean_alpha.pid.0=0x804d
+empyrean_alpha.vid.0=0x2341
+empyrean_alpha.pid.0=0x004d
 #empyrean_alpha.vid.1=0x2341
 #empyrean_alpha.pid.1=0x004d
-
-#empyrean_alpha.upload.tool=bossac
-#empyrean_alpha.upload.protocol=sam-ba
-#empyrean_alpha.upload.maximum_size=262144
-#empyrean_alpha.upload.use_1200bps_touch=true
-#empyrean_alpha.upload.wait_for_upload_port=true
-#empyrean_alpha.upload.native_usb=true
-#empyrean_alpha.build.mcu=cortex-m0plus
-#empyrean_alpha.build.f_cpu=48000000L
-#empyrean_alpha.build.usb_product="Empyrean Alpha"
-#empyrean_alpha.build.usb_manufacturer="Etherkit"
-#empyrean_alpha.build.board=SAMD_ZERO
-#empyrean_alpha.build.core=arduino
-#empyrean_alpha.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
-#empyrean_alpha.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
-#empyrean_alpha.build.openocdscript=openocd_scripts/arduino_zero.cfg
-#empyrean_alpha.build.variant=empyrean_alpha
-#empyrean_alpha.build.variant_system_lib=
-#empyrean_alpha.build.vid=0x1209
-#empyrean_alpha.build.pid=0x80ea
-#empyrean_alpha.bootloader.tool=openocd
-#empyrean_alpha.bootloader.file=empyrean_alpha/empyrean_alpha_sam_ba.bin
-
-empyrean_alpha.vid.0=0x1209
-empyrean_alpha.pid.0=0x80ea
-empyrean_alpha.vid.1=0x1209
-empyrean_alpha.pid.1=0x00ea
-
-empyrean_alpha.vid.2=0x2341
-empyrean_alpha.pid.2=0x824d
-# If the board is a 2341:824d use 2341:824d for build and set other parameters as well
-empyrean_alpha.vid.2.build.vid=0x2341
-empyrean_alpha.vid.2.build.pid=0x824d
-empyrean_alpha.vid.2.build.usb_product="Genuino Zero"
-empyrean_alpha.vid.2.bootloader.file=zero/samd21_sam_ba_genuino.bin
-
-empyrean_alpha.vid.3=0x2341
-empyrean_alpha.pid.3=0x024d
-# If the board is a 2341:024d use 2341:824d for build and set other parameters as well
-empyrean_alpha.vid.3.build.vid=0x2341
-empyrean_alpha.vid.3.build.pid=0x824d
-empyrean_alpha.vid.3.build.usb_product="Genuino Zero"
-empyrean_alpha.vid.3.bootloader.file=zero/samd21_sam_ba_genuino.bin
 
 empyrean_alpha.upload.tool=bossac
 empyrean_alpha.upload.protocol=sam-ba
@@ -73,8 +30,8 @@ empyrean_alpha.upload.wait_for_upload_port=true
 empyrean_alpha.upload.native_usb=true
 empyrean_alpha.build.mcu=cortex-m0plus
 empyrean_alpha.build.f_cpu=48000000L
-empyrean_alpha.build.usb_product="Arduino Zero"
-empyrean_alpha.build.usb_manufacturer="Arduino LLC"
+empyrean_alpha.build.usb_product="Empyrean Alpha"
+empyrean_alpha.build.usb_manufacturer="Etherkit"
 empyrean_alpha.build.board=SAMD_ZERO
 empyrean_alpha.build.core=arduino
 empyrean_alpha.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
@@ -83,6 +40,6 @@ empyrean_alpha.build.openocdscript=openocd_scripts/arduino_zero.cfg
 empyrean_alpha.build.variant=empyrean_alpha
 empyrean_alpha.build.variant_system_lib=
 empyrean_alpha.build.vid=0x1209
-empyrean_alpha.build.pid=0x80ea
+empyrean_alpha.build.pid=0x00ea
 empyrean_alpha.bootloader.tool=openocd
-empyrean_alpha.bootloader.file=zero/samd21_sam_ba.bin
+empyrean_alpha.bootloader.file=empyrean_alpha/empyrean_alpha_sam_ba.bin
