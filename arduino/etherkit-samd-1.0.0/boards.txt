@@ -43,3 +43,33 @@ empyrean_alpha.build.vid=0x1209
 empyrean_alpha.build.pid=0x73ea
 empyrean_alpha.bootloader.tool=openocd
 empyrean_alpha.bootloader.file=empyrean_alpha/empyrean_alpha_sam_ba.bin
+
+# Empyrean Beta
+# -------------
+empyrean_beta.name=Empyrean Beta
+empyrean_beta.vid.0=0x1209
+empyrean_beta.pid.0=0x73eb
+#empyrean_beta.vid.1=0x1209
+#empyrean_beta.pid.1=0x88eb
+
+empyrean_beta.upload.tool=bossac
+empyrean_beta.upload.protocol=sam-ba
+empyrean_beta.upload.maximum_size=65536
+empyrean_beta.upload.use_1200bps_touch=true
+empyrean_beta.upload.wait_for_upload_port=true
+empyrean_beta.upload.native_usb=true
+empyrean_beta.build.mcu=cortex-m0plus
+empyrean_beta.build.f_cpu=48000000L
+empyrean_beta.build.usb_product="Empyrean Beta"
+empyrean_beta.build.usb_manufacturer="Etherkit"
+empyrean_beta.build.board=SAMD_ZERO
+empyrean_beta.build.core=arduino
+empyrean_beta.build.extra_flags=-D__SAMD21G16A__ {build.usb_flags}
+empyrean_beta.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+empyrean_beta.build.openocdscript=openocd_scripts/arduino_zero.cfg
+empyrean_beta.build.variant=empyrean_beta
+empyrean_beta.build.variant_system_lib=
+empyrean_beta.build.vid=0x1209
+empyrean_beta.build.pid=0x73eb
+empyrean_beta.bootloader.tool=openocd
+empyrean_beta.bootloader.file=empyrean_beta/empyrean_beta_sam_ba.bin
