@@ -70,8 +70,8 @@
 							"host": "x86_64-pc-linux-gnu",
 							"url": "https://github.com/etherkit/etherkit.github.io/raw/master/arduino/bossac-1.7.0-etherkit-1-x86_64-linux-gnu.zip",
 							"archiveFileName": "bossac-1.7.0-etherkit-1-x86_64-linux-gnu.zip",
-							"checksum": "SHA-256:0b021d62ac7b079f047bdfa2ecc54cf615eb2a92fcff1c186b919a7ea44c0cd4",
-							"size": "30835"
+							"checksum": "SHA-256:d03fd9e5e97fb92fb0306e20f9af87fa00730be2c27b74ccb31e97621a26657f",
+							"size": "30926"
 						},
 						{
 							"host": "i386-apple-darwin11",
