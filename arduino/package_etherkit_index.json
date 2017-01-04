@@ -55,34 +55,34 @@
         }
       ],
       "tools": [
-			{
-				"name": "bossac",
-				"version": "1.7.0-etherkit-1",
-				"systems": [
 				{
-					"host": "i686-pc-linux-gnu",
-					"url": "https://github.com/etherkit/etherkit.github.io/raw/master/arduino/bossac-1.7.0-etherkit-1-i686-linux-gnu.zip",
-					"archiveFileName": "bossac-1.7.0-etherkit-1-i686-linux-gnu.zip",
-					"checksum": "SHA-256:17ca177a6a16aabdf3443dbfbb90fcbda02f6cac866b05aec537b455dbcf6542",
-					"size": "32028"
-				},
-				{
-					"host": "x86_64-pc-linux-gnu",
-					"url": "https://github.com/etherkit/etherkit.github.io/raw/master/arduino/bossac-1.7.0-etherkit-1-x86_64-linux-gnu.zip",
-					"archiveFileName": "bossac-1.7.0-etherkit-1-x86_64-linux-gnu.zip",
-					"checksum": "SHA-256:4048b56a226faecac3cf4d751eef602c7f1b179831add569287a35f877895050",
-					"size": "30543"
-				},
-				{
-					"host": "i386-apple-darwin11",
-					"url": "https://github.com/etherkit/etherkit.github.io/raw/master/arduino/bossac-1.7.0-etherkit-1-i386-apple-darwin11.zip",
-					"archiveFileName": "bossac-1.7.0-etherkit-1-i386-apple-darwin11.zip",
-					"checksum": "SHA-256:baa172db2b6ba884268c51904e522df6218fde7634db4b51f844cd8b3139cf11",
-					"size": "80011"
-				}
-				]
-    	}
+					"name": "bossac",
+					"version": "1.7.0-etherkit-1",
+					"systems": [
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/etherkit/etherkit.github.io/raw/master/arduino/bossac-1.7.0-etherkit-1-i686-linux-gnu.zip",
+							"archiveFileName": "bossac-1.7.0-etherkit-1-i686-linux-gnu.zip",
+							"checksum": "SHA-256:17ca177a6a16aabdf3443dbfbb90fcbda02f6cac866b05aec537b455dbcf6542",
+							"size": "32028"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/etherkit/etherkit.github.io/raw/master/arduino/bossac-1.7.0-etherkit-1-x86_64-linux-gnu.zip",
+							"archiveFileName": "bossac-1.7.0-etherkit-1-x86_64-linux-gnu.zip",
+							"checksum": "SHA-256:4048b56a226faecac3cf4d751eef602c7f1b179831add569287a35f877895050",
+							"size": "30543"
+						},
+						{
+							"host": "i386-apple-darwin11",
+							"url": "https://github.com/etherkit/etherkit.github.io/raw/master/arduino/bossac-1.7.0-etherkit-1-i386-apple-darwin11.zip",
+							"archiveFileName": "bossac-1.7.0-etherkit-1-i386-apple-darwin11.zip",
+							"checksum": "SHA-256:baa172db2b6ba884268c51904e522df6218fde7634db4b51f844cd8b3139cf11",
+							"size": "80011"
+						}
+					]
+	    	}
   		]
-	}
+		}
 	]
 }
