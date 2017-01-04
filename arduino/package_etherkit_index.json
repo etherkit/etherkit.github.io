@@ -32,7 +32,7 @@
       				"version": "4.8.3-2014q1"
       			},
       			{
-      				"packager": "Etherkit",
+      				"packager": "etherkit",
       				"name": "bossac",
       				"version": "1.7.0-etherkit-1"
       			},
