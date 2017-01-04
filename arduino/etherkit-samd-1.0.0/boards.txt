@@ -19,8 +19,8 @@
 empyrean_alpha.name=Empyrean Alpha
 empyrean_alpha.vid.0=0x1209
 empyrean_alpha.pid.0=0x73ea
-#empyrean_alpha.vid.1=0x1209
-#empyrean_alpha.pid.1=0x88ea
+empyrean_alpha.vid.1=0x1209
+empyrean_alpha.pid.1=0x88ea
 
 empyrean_alpha.upload.tool=bossac
 empyrean_alpha.upload.protocol=sam-ba
@@ -49,8 +49,8 @@ empyrean_alpha.bootloader.file=empyrean_alpha/empyrean_alpha_sam_ba.bin
 empyrean_beta.name=Empyrean Beta
 empyrean_beta.vid.0=0x1209
 empyrean_beta.pid.0=0x73eb
-#empyrean_beta.vid.1=0x1209
-#empyrean_beta.pid.1=0x88eb
+empyrean_beta.vid.1=0x1209
+empyrean_beta.pid.1=0x88eb
 
 empyrean_beta.upload.tool=bossac
 empyrean_beta.upload.protocol=sam-ba

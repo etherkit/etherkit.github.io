@@ -32,9 +32,14 @@
       				"version": "4.8.3-2014q1"
       			},
       			{
+      				"packager": "Etherkit",
+      				"name": "bossac",
+      				"version": "1.7.0-etherkit-1"
+      			},
+      			{
       				"packager": "arduino",
       				"name": "bossac",
-      				"version": "1.6.1-arduino"
+      				"version": "1.7.0"
       			},
       			{
       				"packager": "arduino",
