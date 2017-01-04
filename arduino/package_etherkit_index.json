@@ -55,6 +55,7 @@
         }
       ],
       "tools": [
+			{
 				"name": "bossac",
 				"version": "1.7.0-etherkit-1",
 				"systems": [
