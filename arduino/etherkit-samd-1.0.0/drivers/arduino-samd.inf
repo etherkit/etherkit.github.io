@@ -1,5 +1,6 @@
 ;
 ; Copyright 2016 Arduino LLC (http://www.arduino.cc/)
+; Copyright 2017 Etherkit (https://www.etherkit.com)
 ;
 ; Arduino is free software; you can redistribute it and/or modify
 ; it under the terms of the GNU General Public License as published by
@@ -37,6 +38,10 @@ zero.sketch.name="Arduino Zero"
 zero.bootloader.name="Arduino Zero bootloader"
 sme_fox.sketch.name="SmartEverything Fox"
 sme_fox.bootloader.name="SmartEverything Fox bootloader"
+empyrean_alpha.sketch.name="Empyrean Alpha"
+empyrean_alpha.bootloader.name="Empyrean Alpha bootloader"
+empyrean_beta.sketch.name="Empyrean Beta"
+empyrean_beta.bootloader.name="Empyrean Beta bootloader"
 
 [DefaultInstall]
 CopyINF=arduino-samd.inf
@@ -67,6 +72,10 @@ DefaultDestDir=12
 %zero.bootloader.name%=DriverInstall, USB\VID_2341&PID_004D
 %sme_fox.sketch.name%=DriverInstall, USB\VID_2341&PID_E002&MI_00
 %sme_fox.bootloader.name%=DriverInstall, USB\VID_2341&PID_E001
+%empyrean_alpha.sketch.name%=DriverInstall, USB\VID_1209&PID_73EA&MI_00
+%empyrean_alpha.bootloader.name%=DriverInstall, USB\VID_1209&PID_88EA
+%empyrean_beta.sketch.name%=DriverInstall, USB\VID_1209&PID_73EB&MI_00
+%empyrean_beta.bootloader.name%=DriverInstall, USB\VID_1209&PID_88EB
 
 [DeviceList.NTamd64]
 %bossa.name%=DriverInstall, USB\VID_03EB&PID_6124
@@ -77,6 +86,10 @@ DefaultDestDir=12
 %zero.bootloader.name%=DriverInstall, USB\VID_2341&PID_004D
 %sme_fox.sketch.name%=DriverInstall, USB\VID_2341&PID_E002&MI_00
 %sme_fox.bootloader.name%=DriverInstall, USB\VID_2341&PID_E001
+%empyrean_alpha.sketch.name%=DriverInstall, USB\VID_1209&PID_73EA&MI_00
+%empyrean_alpha.bootloader.name%=DriverInstall, USB\VID_1209&PID_88EA
+%empyrean_beta.sketch.name%=DriverInstall, USB\VID_1209&PID_73EB&MI_00
+%empyrean_beta.bootloader.name%=DriverInstall, USB\VID_1209&PID_88EB
 
 [DeviceList.NTia64]
 %bossa.name%=DriverInstall, USB\VID_03EB&PID_6124
@@ -87,6 +100,10 @@ DefaultDestDir=12
 %zero.bootloader.name%=DriverInstall, USB\VID_2341&PID_004D
 %sme_fox.sketch.name%=DriverInstall, USB\VID_2341&PID_E002&MI_00
 %sme_fox.bootloader.name%=DriverInstall, USB\VID_2341&PID_E001
+%empyrean_alpha.sketch.name%=DriverInstall, USB\VID_1209&PID_73EA&MI_00
+%empyrean_alpha.bootloader.name%=DriverInstall, USB\VID_1209&PID_88EA
+%empyrean_beta.sketch.name%=DriverInstall, USB\VID_1209&PID_73EB&MI_00
+%empyrean_beta.bootloader.name%=DriverInstall, USB\VID_1209&PID_88EB
 
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
@@ -94,8 +111,8 @@ CopyFiles = FakeModemCopyFileSection
 AddReg=DriverAddReg
 
 [DriverAddReg]
-HKR,,DevLoader,,*ntkern 
-HKR,,NTMPDriver,,usbser.sys 
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,usbser.sys
 HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
 
 [DriverInstall.Services]
@@ -109,4 +126,3 @@ StartType=3
 ErrorControl=1
 ServiceBinary=%12%\usbser.sys
 LoadOrderGroup=Base
-
