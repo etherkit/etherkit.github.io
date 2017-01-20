@@ -62,7 +62,7 @@ NAME=samd21_sam_ba_empyrean_beta
 
 # -----------------------------------------------------------------------------
 # Compiler options
-CFLAGS_EXTRA=-D__SAMD21G16A__ -DBOARD_ID_$(BOARD_ID)
+CFLAGS_EXTRA=-D__SAMD21G16B__ -DBOARD_ID_$(BOARD_ID)
 CFLAGS=-mthumb -mcpu=cortex-m0plus -Wall -c -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -nostartfiles --param max-inline-insns-single=500
 ifdef DEBUG
   CFLAGS+=-g3 -O1 -DDEBUG=1
