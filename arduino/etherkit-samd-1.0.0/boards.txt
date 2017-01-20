@@ -42,7 +42,7 @@ empyrean_alpha.build.variant_system_lib=
 empyrean_alpha.build.vid=0x1209
 empyrean_alpha.build.pid=0x73ea
 empyrean_alpha.bootloader.tool=openocd
-empyrean_alpha.bootloader.file=empyrean_alpha/empyrean_alpha_sam_ba.bin
+empyrean_alpha.bootloader.file=empyrean_alpha/samd21_sam_ba_empyrean_alpha.bin
 
 # Empyrean Beta
 # -------------
@@ -72,4 +72,4 @@ empyrean_beta.build.variant_system_lib=
 empyrean_beta.build.vid=0x1209
 empyrean_beta.build.pid=0x73eb
 empyrean_beta.bootloader.tool=openocd
-empyrean_beta.bootloader.file=empyrean_beta/empyrean_beta_sam_ba.bin
+empyrean_beta.bootloader.file=empyrean_beta/samd21_sam_ba_empyrean_beta.bin
