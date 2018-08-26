@@ -1,6 +1,3 @@
 source "https://rubygems.org"
 
-# gem "rails"
-gem 'github-pages'
-gem 'jekyll'
-gem 'jekyll-pdf'
+gem 'github-pages', group: :jekyll_plugins

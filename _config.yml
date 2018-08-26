@@ -23,7 +23,7 @@ disqus_shortname:
 host: 127.0.0.1
 # the preview server used. Leave as is.
 
-port: 4005
+port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
 exclude:
@@ -69,6 +69,7 @@ defaults:
       comments: true
       search: true
       sidebar: home_sidebar
+      topnav: topnav
   -
     scope:
       path: ""
@@ -88,6 +89,7 @@ defaults:
       comments: true
       search: true
       sidebar: home_sidebar
+      topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
 

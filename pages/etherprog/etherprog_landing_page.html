@@ -1,0 +1,203 @@
+---
+title: EtherProg
+keywords: etherprog
+sidebar: etherprog_sidebar
+toc: false
+permalink: etherprog_landing_page
+folder: etherprog
+redirect_from:
+  - /EtherProg/
+---
+<div class="col-lg-12">
+    <img src="{{ "images/EtherProg9.png" }}" alt="EtherProg"/>
+</div>
+<div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Essential Resources</h2>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Schematics</h4>
+                    <p>EtherProg circuit diagram</p>
+                    <a href="https://github.com/etherkit/EtherProg/raw/master/documentation/EtherProg%20Schematics.pdf" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>BOM</h4>
+                    <p>Bill of Materials</p>
+                    <a href="https://github.com/etherkit/EtherProg/raw/master/documentation/EtherProg%20BOM.txt" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>GitHub Repository</h4>
+                    <p>Hardware design files</p>
+                    <a href="https://github.com/etherkit/EtherProg" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Tabs -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">About EtherProg</h2>
+        </div>
+        <div class="col-lg-12">
+
+            <ul id="myTab" class="nav nav-tabs nav-justified">
+                <li class="active"><a href="#what" data-toggle="tab"><i class="fa fa-question"></i> What is EtherProg?</a>
+                </li>
+                <li class=""><a href="#specs" data-toggle="tab"><i class="fa fa-list"></i> Specifications</a>
+                </li>
+                <li class=""><a href="#devices" data-toggle="tab"><i class="fa fa-check"></i> Supported Devices</a>
+                </li>
+            </ul>
+
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade active in" id="what">
+                    <h4>What is EtherProg?</h4>
+                    <p>EtherProg is a bare-bones Atmel AVR in-system programmer (ISP) based on the open source <a href="http://www.simpleavr.com/avr/vusbtiny">vusbtiny</a> firmware. The <a href="http://www.nongnu.org/avrdude/">AVRDUDE</a> open source utility is used in conjunction with EtherProg to flash firmware (along with other functions) to target microcontrollers. EtherProg will be capable of flashing new firmware to any Etherkit product that includes an AVR microcontroller.</p>
+                </div>
+                <div class="tab-pane fade" id="specs">
+                    <h4>Specifications</h4>
+                    <ul>
+                      <li>Operates with Windows, OS X, and Linux</li>
+                      <li>Only requires a free USB port on your PC (a standard USB A-B cable is required)</li>
+                      <li>Can provide +5 VDC to target (jumper selection)</li>
+                      <li>Standard 6-pin Atmel AVR ISP header and cable included</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="devices">
+                  <h4>Supported Devices</h4>
+                  <p>Programming the following Atmel microcontrollers via AVRDUDE is supported (as listed in the AVRDUDE documentation):</p>
+                  <ul>
+                    <li>AT90S1200</li>
+                    <li>AT90S2313</li>
+                    <li>AT90S2333</li>
+                    <li>AT90S2343</li>
+                    <li>AT90S4414</li>
+                    <li>AT90S4433</li>
+                    <li>AT90S4434</li>
+                    <li>AT90S8515</li>
+                    <li>AT90S8535</li>
+                    <li>AT90CAN128</li>
+                    <li>AT90CAN32</li>
+                    <li>AT90CAN64</li>
+                    <li>ATmega103</li>
+                    <li>ATmega128</li>
+                    <li>ATmega1280</li>
+                    <li>ATmega1281</li>
+                    <li>ATmega1284P</li>
+                    <li>ATmega128RFA1</li>
+                    <li>ATmega16</li>
+                    <li>ATmega161</li>
+                    <li>ATmega162</li>
+                    <li>ATmega163</li>
+                    <li>ATmega164</li>
+                    <li>ATmega164P</li>
+                    <li>ATmega168</li>
+                    <li>ATmega168P</li>
+                    <li>ATmega169</li>
+                    <li>ATmega16U2</li>
+                    <li>ATmega2560</li>
+                    <li>ATmega2561</li>
+                    <li>ATmega32</li>
+                    <li>ATmega324P</li>
+                    <li>ATmega325</li>
+                    <li>ATmega3250</li>
+                    <li>ATmega328P</li>
+                    <li>ATmega329</li>
+                    <li>ATmega3290</li>
+                    <li>ATmega329P</li>
+                    <li>ATmega3290P</li>
+                    <li>ATmega32U2</li>
+                    <li>ATmega32U4</li>
+                    <li>ATmega48</li>
+                    <li>ATmega64</li>
+                    <li>ATmega640</li>
+                    <li>ATmega644P</li>
+                    <li>ATmega644</li>
+                    <li>ATmega645</li>
+                    <li>ATmega6450</li>
+                    <li>ATmega649</li>
+                    <li>ATmega6490</li>
+                    <li>ATmega8</li>
+                    <li>ATmega8515</li>
+                    <li>ATmega8535</li>
+                    <li>ATmega88</li>
+                    <li>ATmega88P</li>
+                    <li>ATmega8U2</li>
+                    <li>AT90PWM2</li>
+                    <li>AT90PWM2B</li>
+                    <li>AT90PWM3</li>
+                    <li>AT90PWM3B</li>
+                    <li>ATtiny10</li>
+                    <li>ATtiny12</li>
+                    <li>ATtiny13</li>
+                    <li>ATtiny15</li>
+                    <li>ATtiny2313</li>
+                    <li>ATtiny25</li>
+                    <li>ATtiny26</li>
+                    <li>ATtiny261</li>
+                    <li>ATtiny4</li>
+                    <li>ATtiny4313</li>
+                    <li>ATtiny44</li>
+                    <li>ATtiny45</li>
+                    <li>ATtiny461</li>
+                    <li>ATtiny5</li>
+                    <li>ATtiny85</li>
+                    <li>ATtiny84</li>
+                    <li>ATtiny861</li>
+                    <li>ATtiny88</li>
+                    <li>ATtiny9</li>
+                    <li>AT32uca0512</li>
+                    <li>ATmega1286</li>
+                    <li>ATmega1287</li>
+                    <li>ATmega162</li>
+                    <li>ATmega647</li>
+                    <li>ATmega647</li>
+                    <li>ATmega82</li>
+                    <li>ATxmega128A1</li>
+                    <li>ATxmega128A1revD</li>
+                    <li>ATxmega128A3</li>
+                    <li>ATxmega128A4</li>
+                    <li>ATxmega16A4</li>
+                    <li>ATxmega192A1</li>
+                    <li>ATxmega192A3</li>
+                    <li>ATxmega256A1</li>
+                    <li>ATxmega256A3</li>
+                    <li>ATxmega256A3B</li>
+                    <li>ATxmega32A4</li>
+                    <li>ATxmega64A1</li>
+                    <li>ATxmega64A3</li>
+                    <li>ATxmega64A4</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
