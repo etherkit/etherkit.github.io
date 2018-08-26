@@ -21,10 +21,10 @@ To install on OS X, download the provided archive file and unarchive it in a con
 
 ### Linux
 
-Download the Linux binary file to any convenient location. The libusb-0.1.4 or greater library must be installed on your system prior to using the binary. Use your distribution's package manager to install the libusb. For example, on Ubuntu and other Debian-based distributions, the command is:
+Download the Linux binary file to any convenient location. The 32-bit libusb-0.1.4 or greater library must be installed on your system prior to using the binary. Use your distribution's package manager to install the libusb. For example, on Ubuntu and other Debian-based distributions, the command is:
 
 ```bash
-$ sudo apt-get install libusb
+$ sudo apt-get install libusb-0.1-4:i386
 ```
 
 ### Download Links

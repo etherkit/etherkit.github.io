@@ -46,6 +46,10 @@ entries:
       url: /openbeacon_theory
       output: web, pdf
 
+    - title: Homebrewing OpenBeacon
+      url: /openbeacon_homebrewing
+      output: web, pdf
+
     - title: OpenBeacon Troubleshooting
       url: /openbeacon_troubleshooting
       output: web, pdf
