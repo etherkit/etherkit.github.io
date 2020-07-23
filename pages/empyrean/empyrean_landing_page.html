@@ -1,0 +1,138 @@
+---
+title: Empyrean
+keywords: empyrean
+sidebar: empyrean_sidebar
+toc: false
+permalink: empyrean_landing_page
+folder: empyrean
+redirect_from:
+  - /empyrean/
+---
+<div class="col-lg-12">
+    <img src="{{ "images/EmpyreanCutout.jpg" }}" alt="Empyrean"/>
+</div>
+<div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Essential Resources</h2>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Empyrean Quick Reference</h4>
+                    <p>Single-page Quick Reference Guide for Empyrean</p>
+                    <a href="https://github.com/etherkit/Empyrean/raw/master/documentation/EmpyreanQuickReference.pdf" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Schematics</h4>
+                    <p>Empyrean Alpha/Beta Rev A circuit diagram</p>
+                    <a href="https://github.com/etherkit/Empyrean/raw/master/documentation/EmpyreanSchematicRevA.pdf" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>BOM</h4>
+                    <p>Empyrean Bill of Materials Rev A</p>
+                    <a href="https://github.com/etherkit/Empyrean/raw/master/documentation/EmpyreanBOMRevA.txt" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>GitHub Repository</h4>
+                    <p>Hardware design files</p>
+                    <a href="https://github.com/etherkit/Empyrean" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-file-archive-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Arduino IDE Board Support</h4>
+                    <p>Repository which hosts the Empyrean support files for the Arduino platform.</p>
+                    <a href="https://github.com/etherkit/ArduinoBoards" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Tabs -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">About Empyrean</h2>
+        </div>
+        <div class="col-lg-12">
+
+            <ul id="myTab" class="nav nav-tabs nav-justified">
+                <li class="active"><a href="#what" data-toggle="tab"><i class="fa fa-question"></i> What is Empyrean?</a>
+                </li>
+                <li class=""><a href="#specs" data-toggle="tab"><i class="fa fa-list"></i> Specifications</a>
+                </li>
+            </ul>
+
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade active in" id="what">
+                    <h4>What is Empyrean?</h4>
+                    <p>A powerful yet affordable breadboard-friendly Arduino IDE compatible 32-bit microcontroller with ample code space and RAM. Empyrean is derived from the Arduino Zero to be a much more builder-friendly microcontroller which excludes the expensive and rarely-used debug hardware. The PCB has castellated edge pins and a freely-available KiCad footprint for easy integration into larger projects. Empyrean is self-contained when used with a USB connection, as all programming, communication with a host PC (via a virtual UART), and power is provided. Three user-addressable status LEDs are provided on-board, as well as one power LED indicator (which can be disabled with a jumper to save current if desired). Devoted I2C and SPI serial communcation pins are available, as well as a shared hardware UART on digital pins 0 and 1. Six high-resolution (12-bit) ADC pins are included for analog sensing, as well as one 10-bit DAC pin for accurate waveform generation. Nearly every IO pin can be used for GPIO communications in addition to specialty functions that Empyrean provides.</p>
+                    <p>Coding for Empyrean is done with the Arduino IDE. Installing the board support package for Empyrean is quick and simple to do, just see the documentation section below for details. Arduino sketches can be uploaded via the Arduino IDE, as you would typically do with other Arduino-compatible boards. Empyrean also mounts to the PC filesystem as a storage device so that you may load a sketch onto it via a simple drag-and-drop of a specially compiled UF2 file. The Empyrean bootloader itself can also be updated in this way so that you don't have to have a ATMEL-ICE or similar programmer to do this job.</p>
+                </div>
+                <div class="tab-pane fade" id="specs">
+                    <h4>Specifications</h4>
+                    <ul>
+                      <li>All SMT components assembled, 0.1" headers included unsoldered</li>
+                      <li>Fully tested</li>
+                      <li>Four built-in status LEDs: 3 user-addressable and 1 power</li>
+                      <li>IC: Microchip Technologies ATSAMD21G18A</li>
+                      <li>Clock Speed: 48 MHz</li>
+                      <li>Flash Program Storage: 256 kB</li>
+                      <li>RAM: 32 kB</li>
+                      <li>ADC: 12-bit, 6 available input pins</li>
+                      <li>DAC: 10-bit, 1 available output pin</li>
+                      <li>Input Voltage: 5 VDC regulated (from USB or on VUSB pin), 3.3 VDC regulated (on 3.3V pin), 5-16 VDC (on VIN pin)</li>
+                      <li>Pin Voltage: 3.3 VDC maximum</li>
+                      <li>Pin Current: 7 mA sink/source maximum</li>
+                      <li>Board Current: 150 mA total board current</li>
+                      <li>PCB material: high quality 1.2 mm double-sided FR4 with soldermask and ENIG coating</li>
+                      <li>PCB dimensions: 18 mm x 45 mm</li>
+                      <li>RoHS Compliant</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>

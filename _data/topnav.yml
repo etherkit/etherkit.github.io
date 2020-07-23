@@ -20,3 +20,5 @@ topnav_dropdowns:
           url: /crx1_landing_page
         - title: EtherProg
           url: /etherprog_landing_page
+        - title: Empyrean
+          url: /empyrean_landing_page

@@ -100,6 +100,7 @@ sidebars:
 - si5351abb_sidebar
 - crx1_sidebar
 - etherprog_sidebar
+- empyrean_sidebar
 
 description: "Etherkit Online Product Documentation"
 # the description is used in the feed.xml file
@@ -108,5 +109,5 @@ description: "Etherkit Online Product Documentation"
 
 baseurl: /
 
-gems:
+plugins:
   - jekyll-redirect-from

@@ -1,0 +1,54 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Empyrean
+  version: Rev A
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+    - title: Empyrean Home
+      url: /empyrean_landing_page
+      output: web
+
+    - title: Empyrean Description and Specifications
+      url: /empyrean_specs
+      output: web, pdf
+
+  - title: Assembly and Troubleshooting
+    output: web, pdf
+    folderitems:
+    - title: Before You Start Empyrean
+      url: /empyrean_start
+      output: web, pdf
+
+  - title: Using Empyrean
+    output: web, pdf
+    folderitems:
+    - title: Setting Up the Arduino IDE
+      url: /empyrean_ide_setup
+      output: web, pdf
+
+    - title: Your First Empyrean Sketch
+      url: /empyrean_first
+      output: web, pdf
+
+    - title: Empyrean Programming and User Guide
+      url: /empyrean_programming
+      output: web, pdf

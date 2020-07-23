@@ -20,3 +20,6 @@ entries:
     - title: EtherProg
       url: /etherprog_landing_page
       output: web
+    - title: Empyrean
+      url: /empyrean_landing_page
+      output: web
