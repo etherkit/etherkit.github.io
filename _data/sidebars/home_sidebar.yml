@@ -9,17 +9,17 @@ entries:
     output: web
     folderitems:
     - title: OpenBeacon
-      url: /openbeacon_landing_page
+      url: /openbeacon
       output: web
     - title: Si5351A Breakout Board
-      url: /si5351abb_landing_page
+      url: /si5351abb
       output: web
     - title: CRX1
-      url: /crx1_landing_page
+      url: /crx1
       output: web
     - title: EtherProg
-      url: /etherprog_landing_page
+      url: /etherprog
       output: web
     - title: Empyrean
-      url: /empyrean_landing_page
+      url: /empyrean
       output: web
