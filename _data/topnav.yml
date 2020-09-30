@@ -13,12 +13,12 @@ topnav_dropdowns:
     - title: Products
       folderitems:
         - title: OpenBeacon
-          url: /openbeacon_landing_page
+          url: /openbeacon
         - title: Si5351A Breakout Board
-          url: /si5351abb_landing_page
+          url: /si5351abb
         - title: CRX1
-          url: /crx1_landing_page
+          url: /crx1
         - title: EtherProg
-          url: /etherprog_landing_page
+          url: /etherprog
         - title: Empyrean
-          url: /empyrean_landing_page
+          url: /empyrean
