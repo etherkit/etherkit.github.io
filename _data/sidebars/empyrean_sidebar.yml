@@ -24,7 +24,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: Empyrean Home
-      url: /empyrean
+      url: /empyrean_landing_page
       output: web
 
     - title: Empyrean Description and Specifications
