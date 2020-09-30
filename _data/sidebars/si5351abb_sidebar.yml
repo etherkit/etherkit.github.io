@@ -24,7 +24,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: Si5351A Breakout Board Home
-      url: /si5351abb_landing_page
+      url: /si5351abb
       output: web
 
     - title: Si5351A Breakout Board Description and Specifications

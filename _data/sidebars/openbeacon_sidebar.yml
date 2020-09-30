@@ -24,7 +24,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: OpenBeacon Home
-      url: /openbeacon_landing_page
+      url: /openbeacon
       output: web
 
     - title: OpenBeacon Description and Specifications

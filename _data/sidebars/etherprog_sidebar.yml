@@ -24,7 +24,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: EtherProg Home
-      url: /etherprog_landing_page
+      url: /etherprog
       output: web
 
     - title: EtherProg Description and Specifications
